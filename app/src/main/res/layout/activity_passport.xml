@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PassportActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorToolbar"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:theme="@style/ThemeOverlay.AppCompat" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:columnCount="2"
+                android:orientation="vertical"
+                android:rowCount="3">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:id="@+id/iv_passport"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="0"
+                        android:layout_row="0"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_general_info" />
+
+                    <ImageView
+                        android:id="@+id/iv_license"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="1"
+                        android:layout_row="0"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_forms" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_loksewa"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="0"
+                        android:layout_row="1"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_location" />
+
+                    <ImageView
+                        android:id="@+id/iv_military"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="1"
+                        android:layout_row="1"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_apply" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="0"
+                        android:layout_row="2"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_faq" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_column="1"
+                        android:layout_row="2"
+                        android:layout_weight="1"
+                        android:elevation="5dp"
+                        android:src="@drawable/ic_news" />
+
+                </LinearLayout>
+            </GridLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

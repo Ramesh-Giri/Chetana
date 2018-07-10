@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout"
+        android:layout_centerHorizontal="true"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:rowCount="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iv_passport"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/passport" />
+
+            <ImageView
+                android:id="@+id/iv_license"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_column="1"
+                android:padding="5dp"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/license" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iv_loksewa"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/loksewa" />
+
+            <ImageView
+                android:id="@+id/iv_military"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:padding="5dp"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:src="@drawable/military" />
+        </LinearLayout>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_rate"
+        android:layout_below="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_btn"
+        android:text="Rate us now"
+        android:textColor="@color/white" />
+</RelativeLayout>

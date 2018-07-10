@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            app:actionLayout="@layout/layout_drawer_icons"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            app:actionLayout="@layout/layout_drawer_icons"
+            android:title="Send Feedbacks" />
+        <item
+            android:id="@+id/nav_checkforupdates"
+            app:actionLayout="@layout/layout_drawer_icons"
+            android:icon="@drawable/ic_update"
+            android:title="Check For Updates" />
+        <item
+            android:id="@+id/nav_loginout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log out/in" />
+    </group>
+
+
+</menu>
