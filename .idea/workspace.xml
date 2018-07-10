@@ -19,11 +19,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/PassportActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/PassportActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_passport.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_passport.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,51 +54,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PassportActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/PassportActivity.java">
+      <file leaf-file-name="NewsDetailActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#2035#2245#0" expanded="true" />
-                <element signature="e#2244#2245#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_passport.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_passport.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaqActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/FaqActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="87" column="5" lean-forward="false" selection-start-line="73" selection-start-column="3" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="217">
+              <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplyOnlineActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/ApplyOnlineActivity.java">
+      <file leaf-file-name="NewsAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="28" column="90" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="90" />
-              <folding>
-                <element signature="e#886#1080#0" expanded="true" />
-                <element signature="e#1079#1080#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2171,7 +2140,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/model/FaqsResponse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/model/Faqs.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_faq.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_general_info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/FaqAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/FaqActivity.java" />
@@ -2182,7 +2150,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/model/Info.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/api/ApiConstant.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/api/ApiService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/GeneralInfoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/row_list_info.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/InfoAdapter.java" />
@@ -2195,6 +2162,8 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_passport.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/PassportActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/ApplyOnlineActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java" />
       </list>
     </option>
   </component>
@@ -2332,7 +2301,7 @@
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-    <property name="device.picker.selection" value="192.168.10.146:5555" />
+    <property name="device.picker.selection" value="420303d9f4a2c100" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -2837,22 +2806,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="24" column="100" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22">
@@ -2960,14 +2913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/InfoAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="75" column="107" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sample.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -2993,14 +2938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="3610" column="19" lean-forward="false" selection-start-line="3610" selection-start-column="19" selection-end-line="3610" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -3059,8 +2996,8 @@
         <state relative-caret-position="288">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#2035#2245#0" expanded="true" />
-            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2035#2245#0" expanded="false" />
+            <element signature="e#2244#2245#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3070,9 +3007,41 @@
         <state relative-caret-position="342">
           <caret line="28" column="90" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="90" />
           <folding>
-            <element signature="e#886#1080#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#886#1080#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="75" column="31" lean-forward="false" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/InfoAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="75" column="107" lean-forward="false" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/adapters/NewsAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="74" column="62" lean-forward="false" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/chetana/ramesh/chetana/activities/NewsDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="33" lean-forward="false" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>

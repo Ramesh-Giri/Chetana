@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.chetana.ramesh.chetana.R;
+import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -15,6 +16,7 @@ import butterknife.ButterKnife;
 public class NewsDetailActivity extends AppCompatActivity {
     String title;
     String content;
+    String image;
 
     @BindView(R.id.imgNews)
     ImageView imgNews;
@@ -38,9 +40,16 @@ public class NewsDetailActivity extends AppCompatActivity {
 
         title = getIntent().getStringExtra("title");
         content = getIntent().getStringExtra("content");
+        image= getIntent().getStringExtra("image");
 
         txtDesc.setText(content);
         txtTitle.setText(title);
+
+        if ( image!= null) {
+            Picasso.with(this)
+                    .load(image)
+                    .into(imgNews);
+        }
 
 
     }

@@ -59,11 +59,11 @@ public class NewsAdapter extends RecyclerSwipeAdapter<NewsAdapter.SimpleStringRe
         vh.title.setText(data.getTitle());
 
 
-        if (data.getImage() != null) {
-            Picasso.with(c)
-                    .load(data.getImage())
-                    .into(vh.news_image);
-        }
+            if (data.getImage() != null) {
+                Picasso.with(c)
+                        .load(data.getImage())
+                        .into(vh.news_image);
+            }
         vh.card_list.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,6 +72,7 @@ public class NewsAdapter extends RecyclerSwipeAdapter<NewsAdapter.SimpleStringRe
                 Intent detailIntent = new Intent(c, NewsDetailActivity.class);
                 detailIntent.putExtra("title", data.getTitle());
                 detailIntent.putExtra("content", data.getDescription());
+                detailIntent.putExtra("image", data.getImage());
                 c.startActivity(detailIntent);
 
 
