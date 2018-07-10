@@ -1,4 +1,4 @@
-package com.chetana.ramesh.chetana;
+package com.chetana.ramesh.chetana.activities;
 
 import android.app.ProgressDialog;
 import android.support.annotation.UiThread;
@@ -8,9 +8,10 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.widget.LinearLayout;
 
+import com.chetana.ramesh.chetana.R;
 import com.chetana.ramesh.chetana.Utils.NetworkStatus;
+import com.chetana.ramesh.chetana.adapters.NewsAdapter;
 import com.chetana.ramesh.chetana.api.API;
 import com.chetana.ramesh.chetana.model.News;
 import com.chetana.ramesh.chetana.model.NewsResponse;

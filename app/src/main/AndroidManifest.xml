@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name=".activities.SplashActivity"
             android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,13 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".PassportActivity" />
-        <activity android:name=".FaqActivity" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".NewsActivity" />
-        <activity android:name=".NewsDetailActivity" />
-        <activity android:name=".GeneralInfoActivity"></activity>
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.PassportActivity" />
+        <activity android:name=".activities.FaqActivity" />
+        <activity android:name=".activities.AboutUs" />
+        <activity android:name=".activities.NewsActivity" />
+        <activity android:name=".activities.NewsDetailActivity" />
+        <activity android:name=".activities.GeneralInfoActivity" />
+        <activity android:name=".activities.FormActivity" />
+        <activity android:name=".activities.SampleActivity"></activity>
     </application>
 
 </manifest>

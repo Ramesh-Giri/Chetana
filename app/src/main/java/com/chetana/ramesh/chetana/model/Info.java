@@ -6,20 +6,14 @@ import com.orm.SugarRecord;
 import java.io.Serializable;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class News extends SugarRecord implements Serializable {
+
+public class Info extends SugarRecord implements Serializable  {
 
     String title;
     String description;
-    String slug;
     String image;
-
-    public String getImage() {
-        return image;
-    }
-
-    public void setImage(String image) {
-        this.image = image;
-    }
+    String location;
+    String created_at;
 
     public String getTitle() {
         return title;
@@ -29,7 +23,6 @@ public class News extends SugarRecord implements Serializable {
         this.title = title;
     }
 
-
     public String getDescription() {
         return description;
     }
@@ -38,14 +31,27 @@ public class News extends SugarRecord implements Serializable {
         this.description = description;
     }
 
-
-    public String getSlug() {
-        return slug;
+    public String getImage() {
+        return image;
     }
 
-    public void setSlug(String slug) {
-        this.slug = slug;
+    public void setImage(String image) {
+        this.image = image;
     }
 
+    public String getLocation() {
+        return location;
+    }
 
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getCreated_at() {
+        return created_at;
+    }
+
+    public void setCreated_at(String created_at) {
+        this.created_at = created_at;
+    }
 }

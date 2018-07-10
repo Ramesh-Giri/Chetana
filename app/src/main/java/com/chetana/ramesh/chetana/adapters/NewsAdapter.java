@@ -1,4 +1,4 @@
-package com.chetana.ramesh.chetana;
+package com.chetana.ramesh.chetana.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.chetana.ramesh.chetana.activities.NewsDetailActivity;
+import com.chetana.ramesh.chetana.R;
 import com.chetana.ramesh.chetana.model.News;
 import com.daimajia.swipe.adapters.RecyclerSwipeAdapter;
 
@@ -57,6 +59,11 @@ public class NewsAdapter extends RecyclerSwipeAdapter<NewsAdapter.SimpleStringRe
         vh.title.setText(data.getTitle());
 
 
+        if (data.getImage() != null) {
+            Picasso.with(c)
+                    .load(data.getImage())
+                    .into(vh.news_image);
+        }
         vh.card_list.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

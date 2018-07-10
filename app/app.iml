@@ -139,6 +139,7 @@
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7-27.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.daimajia.swipelayout:library-1.2.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.jsibbold:zoomage-1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime-1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:transition-27.1.1" level="project" />

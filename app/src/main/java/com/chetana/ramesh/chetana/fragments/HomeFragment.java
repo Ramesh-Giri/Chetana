@@ -1,4 +1,4 @@
-package com.chetana.ramesh.chetana;
+package com.chetana.ramesh.chetana.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+
+import com.chetana.ramesh.chetana.R;
+import com.chetana.ramesh.chetana.activities.PassportActivity;
 
 public class HomeFragment extends Fragment {
 

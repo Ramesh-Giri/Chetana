@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PassportActivity">
+    tools:context=".activities.PassportActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <GridLayout
@@ -50,7 +50,7 @@
 
 
                     <ImageView
-                        android:id="@+id/iv_passport"
+                        android:id="@+id/iv_general_info"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_column="0"
@@ -60,7 +60,7 @@
                         android:src="@drawable/ic_general_info" />
 
                     <ImageView
-                        android:id="@+id/iv_license"
+                        android:id="@+id/iv_forms"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_column="1"
@@ -104,6 +104,7 @@
 
 
                     <ImageView
+                        android:id="@+id/iv_faq"
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_column="0"

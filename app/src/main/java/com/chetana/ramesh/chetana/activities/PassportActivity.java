@@ -1,37 +1,31 @@
-package com.chetana.ramesh.chetana;
+package com.chetana.ramesh.chetana.activities;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.UiThread;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 
-import com.chetana.ramesh.chetana.Utils.NetworkStatus;
-import com.chetana.ramesh.chetana.api.API;
-import com.chetana.ramesh.chetana.model.News;
-import com.chetana.ramesh.chetana.model.NewsResponse;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.chetana.ramesh.chetana.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class PassportActivity extends AppCompatActivity {
 
 
     @BindView(R.id.news_notice)
     ImageView news_notice;
+
+    @BindView(R.id.iv_faq)
+    ImageView iv_faq;
+
+    @BindView(R.id.iv_general_info)
+    ImageView iv_general_info;
+
+    @BindView(R.id.iv_forms)
+    ImageView iv_forms;
 
     Toolbar toolbar;
 
@@ -48,6 +42,31 @@ public class PassportActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(PassportActivity.this, NewsActivity.class));
+
+            }
+        });
+
+        iv_faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PassportActivity.this, FaqActivity.class));
+
+            }
+        });
+
+
+        iv_general_info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PassportActivity.this, GeneralInfoActivity.class));
+
+            }
+        });
+
+        iv_forms.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PassportActivity.this, FormActivity.class));
 
             }
         });
