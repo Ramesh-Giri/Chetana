@@ -27,6 +27,9 @@ public class PassportActivity extends AppCompatActivity {
     @BindView(R.id.iv_forms)
     ImageView iv_forms;
 
+    @BindView(R.id.iv_online_form)
+    ImageView iv_online_form;
+
     Toolbar toolbar;
 
     @Override
@@ -67,6 +70,14 @@ public class PassportActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(PassportActivity.this, FormActivity.class));
+
+            }
+        });
+
+        iv_online_form.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(PassportActivity.this, ApplyOnlineActivity.class));
 
             }
         });

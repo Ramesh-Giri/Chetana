@@ -30,7 +30,8 @@
         <activity android:name=".activities.NewsDetailActivity" />
         <activity android:name=".activities.GeneralInfoActivity" />
         <activity android:name=".activities.FormActivity" />
-        <activity android:name=".activities.SampleActivity"></activity>
+        <activity android:name=".activities.SampleActivity" />
+        <activity android:name=".activities.ApplyOnlineActivity"></activity>
     </application>
 
 </manifest>
