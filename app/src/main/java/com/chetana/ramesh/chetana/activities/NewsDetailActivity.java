@@ -54,6 +54,16 @@ public class NewsDetailActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public boolean onOptionsItemSelected(android.view.MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+        }
+        return (super.onOptionsItemSelected(menuItem));
+    }
+
+    
     public void initToolbar() {
         setSupportActionBar(toolbar);
         getSupportActionBar().setHomeButtonEnabled(true);
